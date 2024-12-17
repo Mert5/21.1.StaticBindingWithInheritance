@@ -30,7 +30,7 @@ int main(){
     // Base pointers
     Shape *shape_ptr = &shape1; // Compiler is looking at the type of the object
     //shape_ptr->draw();        // to decide which method should it call ( static binding )
-                                // (if you watch out there are 3 draw() methods here)
+                                // (if you watch out there are 3 draw() methods here in different classes)
 
     shape_ptr = &oval1;
     //shape_ptr->draw();    // Draw an oval -> in most cases, we won't get what we want
